@@ -9,3 +9,18 @@ spring:
     password : postgres
     #platform : mysql
     initialization-mode : always
+
+  config:
+    import : classpath:scripts.properties
+
+#legacy:
+#  datasource:
+#  url : jdbc:db2://dev2db.mbopartners.com:50000/dev2dba
+#  username : db2admin
+#  password : number9#
+
+legacy:
+  datasource:
+    url : jdbc:postgresql://localhost:5432/testDb2
+    username : postgres
+    password : postgres
