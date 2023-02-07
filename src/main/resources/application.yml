@@ -1,0 +1,11 @@
+spring:
+  batch:
+    job:
+      enabled : false
+    initialize-schema : ALWAYS
+  datasource:
+    url : jdbc:postgresql://localhost:5432/testDb?createDatabaseIfNotExist=true&autoReconnect=true
+    username : postgres
+    password : postgres
+    #platform : mysql
+    initialization-mode : always
