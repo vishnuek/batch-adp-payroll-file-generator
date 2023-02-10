@@ -4,7 +4,7 @@ spring:
       enabled : false
     initialize-schema : ALWAYS
   datasource:
-    url : jdbc:postgresql://localhost:5432/testDb?createDatabaseIfNotExist=true&autoReconnect=true
+    url : jdbc:postgresql://localhost:5432/testDb
     username : postgres
     password : postgres
     #platform : mysql

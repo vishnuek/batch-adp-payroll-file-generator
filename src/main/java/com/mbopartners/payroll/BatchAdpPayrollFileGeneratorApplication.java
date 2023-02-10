@@ -9,7 +9,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @PropertySource({"classpath:sftp.properties"})
 @SpringBootApplication
 @EnableBatchProcessing
-@EnableScheduling
 public class BatchAdpPayrollFileGeneratorApplication {
 
 	public static void main(String[] args) {
